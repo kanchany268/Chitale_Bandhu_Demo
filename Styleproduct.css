@@ -1,0 +1,329 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    border: 1px solid red;
+}
+
+#navbar {
+    display: none;
+}
+
+#topheader {
+    width: 100%;
+    background-color: rgb(24, 26, 30);
+     color: white;
+}
+
+.top {
+    width: 100%;
+
+}
+
+#header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+}
+
+#header div {
+    width: 30%;
+}
+
+#logo {
+    width: 20%;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#icon {
+    width: 100%;
+    text-align: right;
+    margin-top: -10px;
+}
+
+#meanu {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#product {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+}
+.product-item1 {
+    width: 100%;
+    padding-right: 20%;
+     justify-content: space-between;
+   
+}
+.product-item1 h1 {
+    width: 100%;
+    margin-top: -22%;
+   padding-left: 50%;
+}
+.product-item2 {
+    width: 90%;
+      background-color: rgb(247, 244, 244);
+        margin-top: 10%;
+        padding: 30px 10px;
+        margin-bottom: 40%;
+        margin: 40px auto;
+}
+.product-item3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    text-align: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.product-item3 div{
+    width: 40%;
+  border: 1px solid rgb(27, 13, 13);
+    align-items: center;
+    margin: 15px 10px;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .product-item3 h3,p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 14px;
+    align-items: center;
+  
+ }
+.product-item3 img{
+    width: 100%;
+}
+.product-item3 p{
+    width: 70%;
+    padding: 0px 30px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#footer {
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(97, 96, 96);
+}
+
+.footer-item1 img {
+    width: 50%;
+
+}
+
+.footer-item1 p,
+i {
+    width: 100%;
+    margin: 30px 10px;
+
+}
+.footer-item2 p,
+i {
+    width: 100%;
+    margin: 10px 10px;
+
+}
+.footer-item3 p,
+i {
+    width: 100%;
+    margin: 10px 10px;
+}
+
+.footer-item4 img {
+    width: 92%;
+    margin: 10px 10px;
+
+
+}
+
+.footer-item5 {
+    width: 100%;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+@media only screen and (min-width:768px) {
+    #topheader {
+        color: white;
+        text-align: right;
+    }
+   #header {
+        text-align: right;
+    }
+    #product {
+    width: 100%;
+  
+  
+}
+.product-item1  {
+    width: 100%;
+    padding-right: -20%;
+     margin-top: 100px;
+     display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+   
+}
+.product-item1 h1 {
+    width: 80%;
+    margin-top: -16%;
+   padding-left: 50%;
+        display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+   
+}
+.product-item1 h4{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 15px;
+    justify-content: space-around;
+     margin-bottom: 20px;
+    
+}
+
+.product-item2 {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 20px 20px;
+    margin: 70px auto;
+}
+
+.product-item3 div{
+    width: 29%;
+    padding: 30px 20px;
+   
+    
+}
+.product-item3 p{
+    width: 100%;
+  
+}
+.product-item3{
+    width: 100%;
+  margin-top: 50px;
+   
+   
+}
+  #footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-item1 {
+        width: 47%;
+        padding-right: 150px;
+    }
+
+    .footer-item2 {
+        margin-top: 50px;
+        
+    }
+
+    .footer-item3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-item4 {
+        padding-left: 50%;
+        margin-top: -40%;
+    }
+
+    .footer-item5 {
+        padding-right: 40%;
+
+    }
+
+}
+@media only screen and (min-width:1200px) {
+    #topheader {
+        text-align: right;
+    }
+    #header {
+        text-align: right;
+    }
+      #navbar {
+        width:100%;
+        display: block;
+         font-size: 20px;
+        
+     }
+
+    #meanu {
+        display: none;
+    }
+
+.product-item1 h1 {
+    width: 80%;
+    margin-top: -8%;
+   padding-left: 50%;
+        display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+   
+}
+.product-item1 h4{
+    width: 100%;
+   
+   
+}
+ #footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-item1 {
+        width: 47%;
+        padding-right: 150px;
+    }
+
+    .footer-item2 {
+
+        margin-top: 50px;
+    }
+
+    .footer-item3 {
+        margin-top: 50px;
+        margin-bottom: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-item4 {
+
+        padding-left: 70%;
+        margin-top: -28%;
+    }
+
+}
+
+ 

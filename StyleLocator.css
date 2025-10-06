@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+   
+
+}
+
+#navbar {
+    display: none;
+}
+
+#topheader {
+    width: 100%;
+    background-color: rgb(24, 26, 30);
+    color: white;
+}
+
+.top {
+    width: 100%;
+
+}
+
+#header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#header div {
+    width: 30%;
+}
+
+#logo {
+    width: 20%;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#icon {
+    width: 100%;
+    text-align: right;
+    margin-top: -10px;
+}
+
+#meanu {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#herosection {
+    width: 100%;
+
+}
+
+.button {
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0px 50px; 
+
+   
+
+}
+
+.selectarea {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding:  auto;
+    margin-top: 10%;
+}
+
+.map {
+    width: 100%;
+    border-color: rgb(249, 244, 244);
+    border: 1px solid black;
+    align-items: center;
+    text-align: left;
+    margin-top: 30%;
+    padding-left: 10px;
+    border: 2px solid rgb(246, 235, 235);
+    border-right-color: rgb(247, 201, 63);
+
+
+
+}
+
+.map button {
+    width: 40%;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    
+
+
+}
+
+
+
+.map button {
+    width: 40%;
+    text-align: center;
+
+
+}
+
+.button span {
+    background-color: red;
+    color: white;
+    
+}
+
+#footer {
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(97, 96, 96);
+}
+
+.footer-item1 img {
+    width: 50%;
+
+}
+
+.footer-item1 p,
+i {
+    width: 100%;
+    margin: 30px 10px;
+
+}
+
+.footer-item2 p,
+i {
+    width: 100%;
+    margin: 10px 10px;
+
+}
+
+.footer-item3 p,
+i {
+    width: 100%;
+    margin: 10px 10px;
+}
+
+.footer-item4 img {
+    width: 92%;
+    margin: 10px 10px;
+
+
+}
+
+.footer-item5 {
+    width: 100%;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+@media only screen and (min-width:768px) {
+    #topheader {
+        color: white;
+        text-align: right;
+    }
+
+    #header {
+        text-align: right;
+    }
+
+    .button {
+    width: 60%;
+    text-align: left;
+   
+
+}
+    .selectarea {
+        width: 70%;
+        text-align: left;
+        padding-left: 10%;
+       
+    }
+    .map {
+    width: 80%;
+    margin: 30px auto;
+}
+.map button {
+    width: 20%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.map iframe  {
+    width: 90%;
+    height: 60%;
+    margin: 20px auto;
+   
+}
+ #footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-item1 {
+        width: 47%;
+        padding-right: 150px;
+    }
+
+    .footer-item2 {
+        margin-top: 50px;
+        
+    }
+
+    .footer-item3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-item4 {
+        padding-left: 50%;
+        margin-top: -40%;
+    }
+
+    .footer-item5 {
+        padding-right: 40%;
+
+    }
+
+}
+@media only screen and (min-width:1200px) {
+    #topheader {
+        text-align: right;
+    }
+    #header {
+        text-align: right;
+    }
+      #navbar {
+        width:100%;
+        display: block;
+         font-size: 20px;
+        
+     }
+
+    #meanu {
+        display: none;
+    }
+       .button {
+    width: 70%;
+    text-align: left;
+        padding-left: 15%;
+         margin-bottom: -7%;
+       
+   
+
+}
+    .selectarea {
+        width: 100%;
+        text-align: left;
+        padding-left: 15%;
+       
+    }
+   
+    .map {
+        width: 80%;
+        margin: 60px auto;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        text-align: left;
+      
+        
+      
+      
+    }
+    .map button {
+    width: 25%;
+    text-align: center;   
+    margin-top: 150px;
+  margin-left: -70px;
+}
+
+
+
+ #footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-item1 {
+        width: 47%;
+        padding-right: 150px;
+    }
+
+    .footer-item2 {
+
+        margin-top: 50px;
+    }
+
+    .footer-item3 {
+        margin-top: 50px;
+        margin-bottom: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-item4 {
+
+        padding-left: 70%;
+        margin-top: -28%;
+    }
+
+}
+
+ 
+

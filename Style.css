@@ -1,0 +1,698 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+  
+}
+
+#navbar {
+    display: none;
+}
+
+#topheader {
+    width: 100%;
+    display: flow-root;
+    background-color: rgb(24, 26, 30);
+}
+
+.top {
+    width: 100%;
+
+}
+
+#header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: -50px;
+}
+
+#header div {
+    width: 30%;
+}
+
+#logo {
+    width: 20%;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#icon {
+    width: 100%;
+    text-align: right;
+    margin-top: -10px;
+}
+
+#meanu {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#herosection {
+    width: 100%;
+    margin-top: -80px;
+}
+
+#herosection img {
+    width: 100%;
+}
+
+#Categories {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.categories-item0 {
+    width: 100%;
+    text-align: left;
+    margin: 20px 10px;
+}
+
+.categories-item1 {
+    background-image: url(Tiles-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px 0px;
+
+
+}
+
+.categories-item2 {
+    background-image: url(Tiles-02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px 0px;
+
+
+}
+
+.categories-item3 {
+    background-image: url(Tiles-05.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px 0px;
+
+}
+
+.categories-item4 {
+    background-image: url(Tiles-23.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px 0px;
+
+
+}
+
+.categories-item5 {
+    background-image: url(Web_NewArrivals.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px 0px;
+
+
+}
+
+.categories-item6 {
+    background-image: url(custom_resized_653fc0f7-7e9d-45c4-acf6-5a45a2a701e5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+
+}
+
+.categories-item1 h3,
+.categories-item2 h3,
+.categories-item3 h3,
+.categories-item4 h3,
+.categories-item5 h3 {
+    width: 100%;
+    align-items: center;
+    text-align: left;
+    padding: 40px 30px;
+
+
+}
+
+.categories-item2 h3,
+.categories-item2,
+.categories-item2 p {
+    display: none;
+}
+
+.categories-item3 h3,
+.categories-item3,
+.categories-item3 p {
+    display: none;
+}
+
+.categories-item5 h3,
+.categories-item5,
+.categories-item5 p {
+    display: none;
+}
+
+.categories-item6 h3,
+.categories-item6,
+.categories-item6 p {
+    display: none;
+}
+
+.categories-item1 p,
+.categories-item2 p,
+.categories-item3 p,
+.categories-item4 p,
+.categories-item5 p {
+    width: 100%;
+    align-items: center;
+    text-align: left;
+    padding: 40px 30px;
+    margin-top: -30%;
+}
+
+.categories-item6 h3 {
+    width: 100%;
+    align-items: center;
+    padding: 10% 10%;
+
+}
+
+.categories-item6 p {
+    width: 100%;
+    align-items: center;
+    padding: 20px 40px;
+    margin-top: -30%;
+
+}
+
+#image {
+    width: 100%;
+
+}
+
+.image1 img {
+    width: 100%;
+}
+
+#BestSellers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+}
+
+.hide {
+    display: none;
+}
+
+.bestsellers-item0 {
+    width: 100%;
+    text-align: left;
+    margin: 20px 10px;
+
+}
+
+
+.bestsellers-items {
+    width: 100%;
+    border: 1px solid rgb(233, 233, 246);
+    margin: 15px 10px;
+    border: 1px solid red;
+}
+
+.bestsellers-items img {
+    width: 100%;
+
+}
+
+
+
+#ChitaleBandhu {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+
+}
+
+.ChitaleBandhu-item img {
+    width: 100%;
+
+}
+
+.ChitaleBandhu-item p {
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+#client {
+    width: 100%;
+    background-color: rgb(244, 245, 245);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.client-item1,
+.client-item2 {
+    background-color: white;
+    width: 100%;
+    margin-top: 10%;
+    padding: 10% 10%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.client-item2 {
+    display: none;
+}
+
+.client-item3 {
+
+    border-radius: 100%;
+    background-color: red;
+    margin: 15px 10px;
+    padding: 9px 9px;
+    margin-left: 40%;
+
+
+}
+
+.client-item4 {
+
+    border-radius: 100%;
+    background-color: white;
+    margin: 15px 10px;
+    padding: 9px 9px;
+    margin-right: 40%;
+
+}
+
+#Brands {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.brands-item {
+    width: 100%;
+    text-align: center;
+}
+
+.brands-item1 {
+    margin: 20px 20px;
+    padding: 0px 40px;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(233, 233, 246);
+}
+
+.image2 {
+    display: none;
+}
+
+.image3 {
+    display: none;
+}
+
+.image4 {
+    display: none;
+}
+
+.image5 {
+    display: none;
+}
+
+#footer {
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(97, 96, 96);
+}
+
+.footer-item1 img {
+    width: 50%;
+
+}
+
+.footer-item1 p,
+i {
+    width: 100%;
+    margin: 30px 10px;
+
+
+}
+
+
+.footer-item2 p,
+i {
+    width: 100%;
+    margin: 10px 10px;
+
+}
+
+
+.footer-item3 p,
+i {
+    width: 100%;
+    margin: 10px 10px;
+
+
+}
+
+.footer-item4 img {
+    width: 92%;
+    margin: 10px 10px;
+
+
+}
+
+.footer-item5 {
+    width: 100%;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+@media only screen and (min-width:768px) {
+    #topheader {
+        text-align: right;
+    }
+
+    #header {
+        text-align: right;
+    }
+
+
+
+    .categories-item1,
+    .categories-item2,
+    .categories-item3,
+    .categories-item4,
+    .categories-item5,
+    .categories-item6 {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .categories-item1 h3,
+    .categories-item1 p,
+    .categories-item2 h3,
+    .categories-item2 p,
+    .categories-item3 h3,
+    .categories-item3 p,
+    .categories-item4 h3,
+    .categories-item4 p,
+    .categories-item5 h3,
+    .categories-item5 p,
+    .categories-item6 h3,
+    .categories-item6 p {
+        display: block;
+    }
+
+    #image {
+        width: 100%;
+        display: flex;
+    }
+
+
+    .bestsellers-items {
+        width: 22%;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .client-item3 {
+
+        display: none;
+
+
+    }
+
+    .client-item4 {
+
+        display: none;
+    }
+
+    .ChitaleBandhu-item img {
+        width: 100%;
+        padding-left: 25%;
+    }
+
+    .ChitaleBandhu-item div {
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    #client h2,
+    p {
+        width: 100%;
+        padding-left: 5%;
+        margin-top: 15px;
+
+    }
+
+    .client-item1 {
+        width: 90%;
+        margin-top: 10px;
+        padding: 10px 10px;
+        border: 1px solid rgb(250, 239, 239);
+
+    }
+
+    .brands-item h2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .image1 {
+        width: 40%;
+      
+    }
+
+    #footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-item1 {
+        width: 47%;
+        padding-right: 150px;
+    }
+
+    .footer-item2 {
+        margin-top: 50px;
+    }
+
+    .footer-item3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-item4 {
+        padding-left: 50%;
+        margin-top: -40%;
+    }
+
+    .footer-item5 {
+        padding-right: 40%;
+
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #topheader {
+        text-align: right;
+    }
+
+    #header {
+        text-align: right;
+    }
+    #navbar {
+        width:100%;
+        display: block;
+        justify-content: space-evenly;
+       padding-right: 10px;
+       padding: 20px 50px;
+        font-size: 20px;
+     }
+
+    #meanu {
+        display: none;
+    }
+   #image div{
+    width: 100%;
+   }
+   #ChitaleBandhu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ChitaleBandhu-item {
+        width: 40%;
+    }
+
+    .ChitaleBandhu-item div {
+        width: 70%;
+    }
+
+    #client {
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #client h2,
+    p {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .client-item1 {
+        width: 40%;
+
+        margin-top: 10%;
+        padding: 10px 10px;
+        margin-bottom: 30%;
+    }
+
+    .client-item2 {
+        display: block;
+        width: 40%;
+        margin-top: 10%;
+        padding: 40px 10px;
+        margin-bottom: 30%;
+
+    }
+
+    .brands-item1 {
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .brands-item h2 {
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    .image1 {
+        width: 20%;
+      
+
+    }
+
+    .image2,
+    .image3,
+    .image4,
+    .image5 {
+        display: block;
+        width: 20%;
+    }
+
+    #footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-item1 {
+        width: 47%;
+        padding-right: 150px;
+    }
+
+    .footer-item2 {
+
+        margin-top: 50px;
+    }
+
+    .footer-item3 {
+        margin-top: 50px;
+        margin-bottom: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-item4 {
+
+        padding-left: 70%;
+        margin-top: -28%;
+    }
+
+}
